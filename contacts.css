@@ -1,0 +1,594 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+.nameBorder {
+
+	width: 100%;
+    height: 64px;
+    margin: 10px;
+    background-color: #4aaaa5;
+    border-width: 2px;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    left: -11px;
+    top: -7px;
+    display: inline-block;
+    font-size: 42px;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+#name {
+	
+	position: fixed;
+    left: 65px;
+    top: 7px;
+    font-weight: normal;
+	
+
+}
+
+.navBar {
+
+	position:fixed;
+	top:10%;
+	right:10%;
+}
+
+ul.navBar { 	
+	
+	position: fixed;
+    top: 72px;
+    right: 17%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #777777;
+    width: 100%;
+
+}
+
+ 
+
+ li.nav {
+	
+	list-style-type: none;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    color: #777777;
+    position: relative;
+    width: 25%;
+    height: 9%;
+    top: 10%;
+    right: -5%;
+ 	text-align: center;
+
+ }
+
+ .li a {
+ 
+ 	text-decoration: none;
+ 	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    position:absolute;
+    top:50%;
+    right:50%;
+   
+ }
+
+ li.nav a {
+
+ 	display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position:relative;
+    top:50%;
+    right:11%;
+ }
+
+li:hover {
+
+	background-color: #4aaaa5;
+	color: white;
+}
+
+
+
+ul.logos {
+	
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 34%;
+    right: 25%;
+    float: right;
+    height: 62%;
+    width: 167%;
+
+    
+}
+
+
+
+li.imagelogo1 {
+
+ 	float:right;
+ 	margin: -4px;
+ 	padding: 10px;
+
+ }
+
+ li.imagelogo1.a {
+	
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+ }
+
+
+
+.aboutMe {
+
+
+	width: 97%;
+    height: 80%;
+  
+    background-color: white;
+    border-width: 0;
+    padding: 0;
+    text-align: justify;
+    position: absolute;
+    left: 5px;
+    top: 1%;
+    clear: left;
+    overflow-y: scroll;
+    display: block;
+    font-size: 42px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.form {
+
+	
+	height: 62%;
+    width: 82%;
+    position: absolute;
+    left: 7%;
+    top: 17%;
+    overflow-y: scroll;
+
+	
+}
+
+input[type=text], select {
+    width: 95%;
+    padding: 4px 20px;
+    margin: 7px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-sizing: border-box;
+    position: relative;
+    left: 1%;
+    top: 50%;
+    
+}
+
+textarea {
+
+	height: 28%;
+    width: 94%;
+    border: 1px solid #ccc;
+    display: block;
+    position: absolute;
+    left: 2%;
+    top: 55%;
+}
+
+label {
+
+	color: #777777;
+
+}
+
+input[type=submit] {
+    width: 52%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 9px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: -webkit-grabbing;
+    position: absolute;
+    left: 2%;
+    top: 233px;
+}
+
+input[type=submit]:hover {
+    background-color: #339999;
+}
+
+
+#aboutSection {
+		
+	position: fixed;
+    left: 57px;
+    top: 20%;
+    font-weight: normal;
+    overflow-y: scroll;
+}
+
+.background { 
+
+	background-image: url("concrete_seamless.png");
+	width: 100%;
+	height: 450px;
+	position:absolute;
+	top:17%;
+	left:0%;
+	border-width:2px;	
+    border-top-style:ridge;
+	
+
+    overflow-y:scroll;
+
+
+}
+
+
+hr#aboutMe { 
+	
+	height: 2px;
+    width: 40%;
+    position: fixed;
+    display: block;
+    right: 43%;
+    top: 24%;
+    background-color: #e0e0e0;
+}
+
+
+
+
+
+ }
+
+hr.connect { 
+	
+	height: 2px;
+	width:87%;
+	position: absolute;
+	top:21%;
+	right:35%;
+	display: block;
+	right: 5%;
+	background-color: #e0e0e0
+
+ }
+
+ 
+
+.connectImages { 
+
+	
+	height: 16%;
+    width: 69%;
+    position: absolute;
+    right: 25%;
+    top: 82%;
+    z-index: 1000;
+    background-color: white;
+
+ }
+
+
+.connectMe {
+
+	display: block;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	position: absolute;
+	top:10%;
+	right:30%;
+
+
+}
+
+.footer1 {
+
+	height:8px;
+	width:100%;
+	color: #4aaaa5;
+	
+	background-color: #4aaaa5;
+	Position:fixed;
+	bottom:81px;
+	right:0px;
+	clear: right;
+
+	
+}
+
+.footer2 {
+
+	height:84px;
+	width:100%;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	
+	background-color: #525252;
+	bottom:-3px;
+	position:fixed;
+
+	right:0px;
+	clear: right;
+
+
+}
+
+
+
+
+
+
+/*media query starts here*/
+
+
+
+
+
+@media screen and (min-width: 500px) and (max-width: 700) {
+
+	
+
+	#name {
+	
+	position: fixed;
+		left: 32%;
+		top: 0px;
+		font-weight: normal;
+}
+	
+	.nameBorder {
+
+	width: 120%;
+    height: 71px;
+	margin:10px;
+	background-color: #4aaaa5;
+	border-width: 2px;
+	padding: 15px; 
+	text-align: center;
+	position: fixed;
+	left: -8%;
+	top: -5%;
+	
+	
+	display: inline-block;
+	font-size: 42px;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+#aboutSection {
+		
+		position: fixed;
+		left: 43px;
+		top:26%;
+		font-weight: normal;
+}
+
+ul.navBar { 	
+	
+	position: fixed;
+	top: 62px;
+	right:-98%;
+	list-style-type: none;
+    margin: 0px;
+    padding: 0px; 
+    color: #777777; 
+    width:200%;
+    background-color: white;
+
+}
+
+	.aboutMe {
+
+	width: 90%;
+    height: 48%;
+	margin:10px;
+	background-color: white;
+	border-width: 2px;
+	padding: 15px; 
+	text-align: justify;
+	position: fixed;
+	left: 20px;
+	top: 121px;
+	clear: left;
+	overflow: scroll;
+	
+	
+	display: block;
+	font-size: 42px;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+
+	.connectMe {
+	
+	width: 50px;
+	height: 100px;
+	display: block;
+	font-size: 13px;
+	text-align: center;
+	font-weight: bold;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	position: absolute;
+	top:5%;
+	right:5%;
+
+
+}
+
+
+	input[type=submit] {
+    width: 45%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 9px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: -webkit-grabbing;
+    position:absolute;
+    left:-2%;
+    top: 500%;
+}
+
+	input[type=submit]:hover {
+    background-color: #339999;
+}
+
+	
+	.form {
+
+	
+	height:25%;
+	width: 75%;
+	position: absolute;
+	left: 11%;
+	top:22%;
+}
+
+
+	.connectImages { 
+
+	
+	height: 20%;
+	width: 90%;
+	position: absolute;
+	right:5%; 
+	top: 73%;
+	
+	
+	background-color: white;
+
+ }
+
+hr#aboutMe { 
+	
+	height: 2px;
+	width: 90%;
+	position: fixed;
+	display: block;
+	right: 	5%;
+	top:30%;
+	background-color: #e0e0e0
+
+ }
+
+hr.connect { 
+	
+	height: 2px;
+	width: 90%;
+	position: absolute;
+	top:30%;
+	right:35%;
+	display: block;
+	right: 5%;
+	background-color: #e0e0e0
+
+ }
+
+.connectMe {
+
+	display: block;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	position: absolute;
+	top:10%;
+	right:30%;
+	width: 95%;
+
+
+}
+
+	.footer1 {
+
+	height:8px;
+	width:100%;
+	color: #4aaaa5;
+	
+	background-color: #4aaaa5;
+	Position:fixed;
+	bottom:27px;
+	right:0px;
+	clear: right;
+
+	
+}
+
+	.footer2 {
+
+	height:34px;
+	width:100%;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	
+	background-color: #525252;
+	bottom:-3px;
+	position:fixed;
+
+	right:0px;
+	clear: right;
+
+
+}
+
+}
+
+/* media query 980 starts here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
